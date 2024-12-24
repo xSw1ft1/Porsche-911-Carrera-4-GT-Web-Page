@@ -39,9 +39,9 @@ Google Fonts: Orbitron font for a modern and sleek look.
 Clone this repository:
 bash
 Kodu kopyala
-git clone https://github.com/username/porsche-911-carrera-4-gts.git
+```bash git clone https://github.com/username/porsche-911-carrera-4-gts.git
 Navigate to the project directory:
-bash
+
 Kodu kopyala
 cd porsche-911-carrera-4-gts
 Important: To view the 3D model, you must run the project via Go Live from Visual Studio Code. Opening the index.html file directly in a browser will not display the 3D model.
