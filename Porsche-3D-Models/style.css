@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1C1C1C;
+}
+
+/* Porsche 3D Show */
+h3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20px;
+  z-index: 2;
+  font-size: 5vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-image: linear-gradient(45deg, #000000, #aaaaaab9);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+   font-family: "Orbitron", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+#container3D {
+  width: 90%;
+  height: 90%;
+  max-width: 800px;
+  max-height: 800px;
+  position: relative;
+  border-radius: 20px;
+}
+
+#container3D canvas {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Porsche 3D Show */
+
+
+
+
+
+.porsche-info{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.porsche-head{
+  text-align: center;
+}
+
+.porsche-head h2{
+  color: rgb(255, 255, 255);
+  letter-spacing: 11px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+}
+
+.bottom-info{
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-info h4{
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron", sans-serif;
+}
+
+.bottom-info p{
+  color: rgb(255, 255, 255);
+  font-family: "Orbitron", sans-serif;
+  font-size: 11px;
+}
+
+
+.left-info{
+  margin: 0px 80px;
+}
+
+.center-info{
+  margin: 0px 80px;
+}
+
+.right-info{
+  margin: 0px 80px;
+}
+
+
+
+
+
+
+
+
+.porsche-draft{
+  background-color: #fff;;
+}
+
+.porsche-draft .cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.porsche-draft .cont h5{
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+}
+
+
+.right-draft{
+  margin-bottom: 80px;
+}
+
+.left-text-first{
+  margin-top: 130px;
+  padding-bottom: 110px;
+}
+
+.right-text-second{
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.right-text-first{
+  padding-bottom: 50px;
+}
+
+.slogan-all{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.slogan{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan p {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(to right, #898989 0, white 10%, #898989 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.7s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 1470px 0;
+  }
+}
+
+
+.porsche-feature{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+}
+
+.porsche-feature hr{
+  color: #898989;
+}
+
+.contai{
+  width: 60%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.feature-head{
+  text-align: center;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.feature-head h1{
+  font-size: 54px;
+  letter-spacing: 12px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.feature-head h6{
+  font-size: 24px;
+  font-family: "Orbitron", sans-serif;  
+}
+
+.performance-power{
+  display: flex;
+}
+
+.performance-cont{
+  display: flex;
+  color: #000000;
+  justify-content: space-between;
+}
+
+.performance-cont p{
+  font-size: 14px;
+}
+
+.power-cont{
+  display: flex;
+  color: #000000;
+  justify-content: space-between;
+}
+
+.power-cont p{
+  font-size: 14px;
+}
+
+.perf-head{
+  color: #000000;
+  text-align: center;
+}
+
+.power-head{
+  color: #000000;
+  text-align: center;
+}
+
+.performance{
+  width: 70%;
+  padding: 0px 50px;
+}
+
+.power{
+  width: 70%;
+  padding: 0px 50px;
+}
